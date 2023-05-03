@@ -1,0 +1,37 @@
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+}
+
+.login {
+	padding: 20px;
+	background-color: white;
+	text-align: left;
+
+	height: min-content;
+	border-radius: 10px;
+	width: 100%;
+}
+.input {
+	outline: none;
+	border: none;
+	width: 100%;
+	padding: 15px;
+	border-radius: 10px;
+	margin-left: 40px;
+	background-color: #edf5f3;
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+}
+
+.clr {
+	border-radius: 10px;
+}
+.font {
+	font-family: Times New Roman Georgia Garamond;
+}

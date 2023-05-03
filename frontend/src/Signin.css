@@ -1,0 +1,71 @@
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+.signin_btn {
+	outline: none;
+	border: none;
+	background-color: white;
+}
+
+.kuch {
+	outline: none;
+	border: none;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	font-size: 14px;
+	width: 100%;
+}
+
+.social_icon {
+	padding-left: 20px;
+}
+
+.login {
+	padding: 10px;
+	background-color: white;
+	text-align: left;
+	color: black;
+	width: 500px;
+	height: min-content;
+	border-radius: 10px;
+}
+.clr {
+	border-radius: 10px;
+}
+.font {
+	font-family: Times New Roman Georgia Garamond;
+}
+.up {
+	font-family: Times New Roman Georgia Garamond;
+}
+.bttn {
+	border-radius: 10px;
+	font-family: Times New Roman Georgia Garamond;
+	text-align: center;
+}
+
+.modal {
+	text-align: center;
+	padding: 0 !important;
+}
+.modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -1px;
+}
+.modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}

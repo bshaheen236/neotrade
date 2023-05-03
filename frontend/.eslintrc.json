@@ -1,0 +1,105 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"jest": true
+	},
+	"extends": ["plugin:react/recommended", "airbnb", "prettier"],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+		// "project":"./tsconfig.json"
+	},
+	// "parser": "@babel/eslint-parser",
+	"plugins": ["react"],
+	"rules": {
+		"quotes": [
+			"error",
+			"double",
+			{
+				"avoidEscape": true
+			}
+		],
+		"jsx-a11y/no-distracting-elements": [
+			2,
+			{
+				"elements": ["marquee", "blink"]
+			}
+		],
+		"jsx-a11y/label-has-associated-control": [
+			2,
+			{
+				"labelComponents": ["CustomInputLabel"],
+				"labelAttributes": ["label"],
+				"controlComponents": ["CustomInput"],
+				"depth": 3
+			}
+		],
+		"jsx-a11y/label-has-for": [
+			2,
+			{
+				"components": [],
+				"required": {
+					"every": ["nesting", "id"]
+				},
+				"allowChildren": true
+			}
+		],
+		"jsx-a11y/control-has-associated-label": [
+			2,
+			{
+				"labelAttributes": ["label"],
+				"controlComponents": ["CustomComponent"],
+				"ignoreElements": [
+					"audio",
+					"canvas",
+					"embed",
+					"input",
+					"textarea",
+					"tr",
+					"video"
+				],
+				"ignoreRoles": [
+					"grid",
+					"listbox",
+					"menu",
+					"menubar",
+					"radiogroup",
+					"row",
+					"tablist",
+					"toolbar",
+					"tree",
+					"treegrid"
+				],
+				"depth": 3
+			}
+		],
+
+		"jsx-a11y/anchor-is-valid": [
+			"off",
+			{
+				"components": ["Link"],
+				"specialLink": ["hrefLeft", "hrefRight"],
+				"aspects": ["noHref", "invalidHref", "preferButton"]
+			}
+		],
+		"react/no-unescaped-entities": 0,
+		"react/jsx-users-react": ["off"],
+		"react/react-props-no-spreading": ["off"],
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+		"no-shadow": ["off"],
+		"react/react-in-jsx-scope": "off",
+		"no-alert": "off",
+		"react/prop-types": "off",
+		"no-unused-expressions": "off",
+		"radix": 0,
+		"arrow-body-style": "off",
+		"object-shorthand": "off",
+		"no-underscore-dangle": "off",
+		"react/jsx-props-no-spreading": "off",
+		"no-plusplus": "off"
+	}
+}

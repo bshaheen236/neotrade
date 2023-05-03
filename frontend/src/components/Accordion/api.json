@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"question": "1.What is Live gold Price means?",
+		"answer": "Live gold price means the gold rate in Indian Rupees (INR) per gram of (999.9) fine gold as posted from time to time, exclusive of product manufacturing/making charges and delivery charges."
+	},
+	{
+		"id": 2,
+		"question": "2.Do i require to complete my KYC to open my Neotrade Account?",
+		"answer": "Yes it is neccesary to complete the KYC while filling the details."
+	},
+	{
+		"id": 3,
+		"question": "3.How do i digitally buy gold",
+		"answer": " You can make an offer to buy Gold at the rate displayed on the Neotrade in either rupees or grams.For example, you can buy gold worth INR1 and aboveor 0.1 gram and above."
+	},
+	{
+		"id": 4,
+		"question": "4.Can i cancel my gold purchase?",
+		"answer": "Once Admin has accepted your offer to buy,cancellations or refunds are not allowed. You canhowever sell your gold back to online 72 hours afteryour first purchase."
+	},
+	{
+		"id": 5,
+		"question": "5.How do i close my account?",
+		"answer": "Customer needs to place the request for delivery redeemption or sell back, if sale back window is active for liquidating the gold holding, if any. Ifyou do not have any gold balance in your goldaccount, no action is required from the customer'send"
+	}
+]
